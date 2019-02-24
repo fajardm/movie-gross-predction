@@ -76,10 +76,12 @@ def preprocessing_categorical(data):
 
 def regression_with_cross_validation(model, data, target, n_fold, model_name, pred_type):
     print(pred_type, " (Regression Model: ", model_name)
-    cross_val_score_mean_abs_err = cross_val_score(model, data, np.ravel(target), scoring='neg_mean_absolute_error', cv=n_fold)
+    cross_val_score_mean_abs_err = cross_val_score(model, data, np.ravel(target), scoring='neg_mean_absolute_error',
+                                                   cv=n_fold)
     print("\nCross Validation Score (Mean Absolute Error)        : \n", -cross_val_score_mean_abs_err)
     print("\nCross Validation Score (Mean Absolute Error) (Mean) : \n", -cross_val_score_mean_abs_err.mean())
-    cross_val_score_mean_sqr_err = cross_val_score(model, data, np.ravel(target), scoring='neg_mean_squared_error', cv=n_fold)
+    cross_val_score_mean_sqr_err = cross_val_score(model, data, np.ravel(target), scoring='neg_mean_squared_error',
+                                                   cv=n_fold)
     print("\nCross Validation Score (Mean Squared Error)         : \n", -cross_val_score_mean_sqr_err)
     print("\nCross Validation Score (Mean Squared Error)  (Mean) : \n", -cross_val_score_mean_sqr_err.mean())
 
