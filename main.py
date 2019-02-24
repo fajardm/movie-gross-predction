@@ -318,8 +318,8 @@ target_gross = data['gross']
 target_imdb_score = data['imdb_score']
 database = data.drop('gross', 1)
 database.info()
-target_gross = preprocessing_numerical_minmax(target_gross.values.reshape(-1, 1))
 preprocessed_data = preprocessed_agregated_data(database)
+target_gross = preprocessing_numerical_minmax(target_gross.values.reshape(-1, 1))
 print("feature calculation complete\n")
 
 regr = RandomForestRegressor(max_depth=2, random_state=0, n_estimators=100)
