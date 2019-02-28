@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86aeee77-9bbc-479e-a1b6-81d12642e2ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/movie_revenue$movie_revenue.coverage" NAME="movie-revenue Coverage Results" MODIFIED="1550758344123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/movie_revenue$movie_revenue.coverage" NAME="movie-revenue Coverage Results" MODIFIED="1551347254773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/movie_revenue$main.coverage" NAME="main Coverage Results" MODIFIED="1551017696177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/movie_revenue$Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1_7_8.coverage" NAME="Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.8 Coverage Results" MODIFIED="1550758430155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -21,16 +21,17 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="ipynb" value="5" />
+          <entry key="ipynb" value="6" />
           <entry key="md" value="1" />
           <entry key="py" value="20" />
         </counts>
@@ -38,7 +39,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="IPNB" value="5" />
+          <entry key="IPNB" value="6" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="20" />
@@ -46,27 +47,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1123" />
+          <entry key="py" value="1128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1123" />
+          <entry key="Python" value="1128" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="326" selection-start-line="326" selection-end-line="332" selection-end-column="31" />
+            <state relative-caret-position="738">
+              <caret line="334" selection-start-line="334" selection-end-line="339" selection-end-column="31" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <marker date="1551017695085" expanded="true" signature="10976:10981" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="7" />
             </state>
           </provider>
         </entry>
@@ -123,9 +133,9 @@
       <list>
         <option value="$PROJECT_DIR$/Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.8.ipynb" />
         <option value="$PROJECT_DIR$/Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.8.py" />
-        <option value="$PROJECT_DIR$/main.ipynb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/main.ipynb" />
       </list>
     </option>
   </component>
@@ -272,12 +282,12 @@
   <component name="ToolWindowManager">
     <frame x="-319" y="-1057" width="1920" height="1057" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18956336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19116081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33056995" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33056995" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,20 +319,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.5.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Original/Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.5.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.5.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Original/Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.5.ipynb" />
     <entry file="file://$USER_HOME$/miniconda2/envs/py36/lib/python3.6/site-packages/sklearn/ensemble/forest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
@@ -368,31 +366,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.8.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="61" column="13" selection-start-line="61" selection-end-line="61" selection-end-column="13" />
-          <folding>
-            <element signature="e#1687#1706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.8.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Anjana_Tiha_Data_Science_Project_IMDBMovie_Version1.7.8.py" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$USER_HOME$/miniconda2/envs/py36/lib/python3.6/site-packages/sklearn/model_selection/_validation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17596">
@@ -414,13 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -430,12 +399,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="326" selection-start-line="326" selection-end-line="332" selection-end-column="31" />
+        <state relative-caret-position="738">
+          <caret line="334" selection-start-line="334" selection-end-line="339" selection-end-column="31" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <marker date="1551017695085" expanded="true" signature="10976:10981" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="7" />
         </state>
       </provider>
     </entry>
